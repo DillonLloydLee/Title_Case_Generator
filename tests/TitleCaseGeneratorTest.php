@@ -17,6 +17,17 @@
             //Assert
             $this->assertEquals("Beowulf", $result);
         }
+
+        function test_makeTitleCase_multipleWords()
+        {
+            $test_TitleCaseGenerator = new TitleCaseGenerator;
+            $input = "beowulf is great";
+
+            $result = $test_TitleCaseGenerator->makeTitleCase($input);
+
+            $this->assertEquals("Beowulf Is Great", $result);
+
+        }
     }
 
 

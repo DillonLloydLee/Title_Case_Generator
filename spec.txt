@@ -1,3 +1,6 @@
 Behavior                                               Input               Output
 <hr>
+
 It capitalizes the first letter of a single word.      beowulf             Beowulf
+
+It capitalizes the first word of every word.           beowulf is great    Beowulf Is Great
